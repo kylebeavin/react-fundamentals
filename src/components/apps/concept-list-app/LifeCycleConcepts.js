@@ -1,8 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
 import ConceptLife from './ConceptLife';
-import { lifecycleMethods } from './concepts';
-
 
 const LifeCycleConcepts =   ({lifecycleMethods,toggle}) => {console.log(lifecycleMethods);
     let lifecycleSorted = _.sortBy(lifecycleMethods, 'done');

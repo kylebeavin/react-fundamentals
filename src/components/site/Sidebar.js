@@ -23,6 +23,7 @@ const Sidebar = () => (
         <li><Link to="/timer">Timers</Link></li>
         <li><Link to="/ReactConceptsApp">React Concepts Checklist</Link></li>
         <li><Link to="/NytApp">New York Times</Link></li>
+        <li><Link to="/FriendListApp">Friend List</Link></li>
 
       </ul>
     </div>
